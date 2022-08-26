@@ -229,12 +229,12 @@ public class LearnerScoreProcessingApplication {
             Scanner learnerFileReader  = null;                // Scanner object to read the file
 
             try {
-                learnersFile       = new File(LEARNERS_FILE_NAME);    // Instantiate File object resprenenting data
+                learnersFile       = new File(LEARNERS_FILE_NAME);    // Instantiate File object representing data
                 learnerFileReader  = new Scanner(learnersFile);       // Instantiate Scanner to read file
                 while (learnerFileReader.hasNextLine()) {             // Loop as long as there is data in the file
-                      aLine = learnerFileReader.nextLine().strip(); //      Get a line from the file and store it
-                      String[] learnerData = aLine.split(",");      //      Parse values in line based on ,
-                      learners.add(new Learner(learnerData[0]       //      Add to List with  input track
+                      aLine = learnerFileReader.nextLine().strip();   //    Get a line from the file and store it
+                      String[] learnerData = aLine.split(",");        //    Parse values in line based on ,
+                      learners.add(new Learner(learnerData[0]         //    Add to List with  input track
                                               ,Integer.parseInt(learnerData[1]) //      and  input id
                                               ,learnerData[2]                   //      and  input name and
                                               ,Arrays.asList(Integer.parseInt(learnerData[3]) // input scores
