@@ -6,7 +6,7 @@ This activity will be walked through by your instructor.
 
 Please do not be afraid to ask questions.  Chances are very good that others have the same and/or similar questions and are bashful about asking.  They will appreciate your asking the question.
 
-Our new CEO, Knellson Josh, has issued a directive for all Java applcations be brought to the level of at least Java 8.  His Chief Technology Officer, Ron Macbykey, has found a legacy application that would be an excellent candidate for implementing the "new" Java 8 feature call Lambda expressions.   We have been charged with performing that task.
+Our new CEO, Knellson Josh, has issued a directive for all Java applcations to be brought to the level of at least Java 8.  His Chief Technology Officer, Ron Macbykey, has found a legacy application that would be an excellent candidate for implementing the "new" Java 8 feature call Lambda expressions.   We have been charged with performing that task.
 
 Successful completion will be when all we have replaced existing code with lambda expressions where applicable and the  application program processing is unchanged.
 
