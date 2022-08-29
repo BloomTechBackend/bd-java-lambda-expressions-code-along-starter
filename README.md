@@ -17,4 +17,4 @@ Successful completion will be when all we have replaced existing code with lambd
 
 ## Set Up
 
-- Clone this repo and open it's project folder in IntelliJ.
+- Clone this repo and open it's project folder in IntelliJ. The project should build successfully as is.
